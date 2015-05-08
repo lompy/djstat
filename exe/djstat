@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'djstat'
+
+puts Djstat::Djstat.new.hello
+puts 'blaster'
